@@ -1,0 +1,12 @@
+<p>Hey I am the Dashboard</p>
+
+{{#each cars}}
+
+    {{#ifCond this.price 10000 }}
+
+        <p>Model: {{this.model}}</p>
+
+    {{/ifCond }}
+
+
+{{/each}}
